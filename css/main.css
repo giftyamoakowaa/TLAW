@@ -1,6 +1,9 @@
-*{
+body {
+    overflow-x: hidden;
     margin: 0;
+    padding: 0;
 }
+
 #logo {
 width: 100px;
 height: 50px;
@@ -30,3 +33,51 @@ nav button{
     border-style: solid;
     /* border: 2px solid  blanchedalmond; */
 }
+
+#hero{
+    background-image: url(../assets/images/law\ chair.webp);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   }
+
+   #intro {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    color: white;
+    padding-top: 200px;
+   }
+   
+   #io {
+    color: white;
+    font-family: "Baskervville", serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+   button {
+    height: 12vh;
+    width: 16vw;
+    color: lightcoral;
+   }
+
+   #para {
+    font-family: "Baskervville", serif;
+    font-size: 18px;
+    font-weight: 300;
+   }
+
+   #About {
+    display: flex;
+   }
+
+   #sbt {
+    justify-content: right;
+   }
+
+   .sbt-h {
+    padding-left: 20px;
+   }
+
