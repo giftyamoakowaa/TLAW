@@ -71,6 +71,8 @@ nav button{
 
    #About {
     display: flex;
+    padding-top: 12%;
+    padding-left: 12%;
    }
 
    #sbt {
@@ -78,6 +80,11 @@ nav button{
    }
 
    .sbt-h {
-    padding-left: 20px;
+    padding-left: 50%;
+   }
+
+   .sbt-p {
+    justify-content: space-around;
+    font-size: 15px;
    }
 
